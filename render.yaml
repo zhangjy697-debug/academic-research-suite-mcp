@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: academic-research-suite-mcp
+    runtime: docker
+    plan: free
+    autoDeploy: true
+    healthCheckPath: /health
